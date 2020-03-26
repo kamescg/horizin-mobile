@@ -32,7 +32,7 @@ const Authentication = props => (
   <ImageBackground style={styles.cover} source={bg}>
     <SetNavigation navigation={props.navigation} />
     <View style={[styles.slide, styles.slide1]}>
-      <Text style={styles.title}>ΞID</Text>
+      <Text style={styles.title}>horizin</Text>
       <Flex
         style={{
           alignItems: 'center',
@@ -92,7 +92,7 @@ const styles = {
   },
   title: {
     color: '#fff',
-    fontSize: 58,
+    fontSize: 32,
     fontWeight: 'bold',
     textAlign: 'center',
   },

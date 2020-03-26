@@ -1,12 +1,8 @@
 ![d](assets/header.png)
 
-# ΞID Mobile
+# Horizin Mobile
 
-ΞID Mobile is an Open Source Decentralized Identity wallet.
-
-MIT License. **Freedom.**
-
-Built as a playground to experiment with decentralized identity and emerging standards like 3ID and the latest developments by 3Box. The application will focus on features like verifiable credentials, decentralized profiles, social interactions (search, following, communities), managing spaces and other less explored ideas like peer-to-peer verifiable credentials.
+Horizin Mobile is an Open Source Web3 Identity and Wallet smartphone application.
 
 ![d](assets/lineup.png)
 

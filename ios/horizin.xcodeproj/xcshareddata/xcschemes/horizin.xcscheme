@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-               BuildableName = "ethdid.app"
-               BlueprintName = "ethdid"
-               ReferencedContainer = "container:ethdid.xcodeproj">
+               BuildableName = "horizin.app"
+               BlueprintName = "horizin"
+               ReferencedContainer = "container:horizin.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "ethdidTests.xctest"
-               BlueprintName = "ethdidTests"
-               ReferencedContainer = "container:ethdid.xcodeproj">
+               BuildableName = "horizinTests.xctest"
+               BlueprintName = "horizinTests"
+               ReferencedContainer = "container:horizin.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -61,9 +61,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "ethdidTests.xctest"
-               BlueprintName = "ethdidTests"
-               ReferencedContainer = "container:ethdid.xcodeproj">
+               BuildableName = "horizinTests.xctest"
+               BlueprintName = "horizinTests"
+               ReferencedContainer = "container:horizin.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -71,9 +71,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "ethdid.app"
-            BlueprintName = "ethdid"
-            ReferencedContainer = "container:ethdid.xcodeproj">
+            BuildableName = "horizin.app"
+            BlueprintName = "horizin"
+            ReferencedContainer = "container:horizin.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -94,9 +94,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "ethdid.app"
-            BlueprintName = "ethdid"
-            ReferencedContainer = "container:ethdid.xcodeproj">
+            BuildableName = "horizin.app"
+            BlueprintName = "horizin"
+            ReferencedContainer = "container:horizin.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -113,9 +113,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "ethdid.app"
-            BlueprintName = "ethdid"
-            ReferencedContainer = "container:ethdid.xcodeproj">
+            BuildableName = "horizin.app"
+            BlueprintName = "horizin"
+            ReferencedContainer = "container:horizin.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -14,11 +14,11 @@
 #define TIMEOUT_SECONDS 600
 #define TEXT_TO_LOOK_FOR @"Welcome to React"
 
-@interface ethdidTests : XCTestCase
+@interface horizinTests : XCTestCase
 
 @end
 
-@implementation ethdidTests
+@implementation horizinTests
 
 - (BOOL)findSubviewInView:(UIView *)view matching:(BOOL(^)(UIView *view))test
 {

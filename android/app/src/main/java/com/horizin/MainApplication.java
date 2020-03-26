@@ -1,4 +1,4 @@
-package com.ethdid;
+package com.horizin;
 
 import android.app.Application;
 import android.content.Context;

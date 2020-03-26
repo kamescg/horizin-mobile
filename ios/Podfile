@@ -1,8 +1,8 @@
 platform :ios, '9.0'
 require_relative '../node_modules/@react-native-community/cli-platform-ios/native_modules'
 
-target 'ethdid' do
-  # Pods for ethdid
+target 'horizin' do
+  # Pods for horizin
   pod 'FBLazyVector', :path => "../node_modules/react-native/Libraries/FBLazyVector"
   pod 'FBReactNativeSpec', :path => "../node_modules/react-native/Libraries/FBReactNativeSpec"
   pod 'RCTRequired', :path => "../node_modules/react-native/Libraries/RCTRequired"
@@ -34,7 +34,7 @@ target 'ethdid' do
   pod 'glog', :podspec => '../node_modules/react-native/third-party-podspecs/glog.podspec'
   pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
 
-  target 'ethdidTests' do
+  target 'horizinTests' do
     inherit! :search_paths
     # Pods for testing
   end
@@ -42,10 +42,10 @@ target 'ethdid' do
   use_native_modules!
 end
 
-target 'ethdid-tvOS' do
-  # Pods for ethdid-tvOS
+target 'horizin-tvOS' do
+  # Pods for horizin-tvOS
 
-  target 'ethdid-tvOSTests' do
+  target 'horizin-tvOSTests' do
     inherit! :search_paths
     # Pods for testing
   end

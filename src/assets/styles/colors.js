@@ -1,0 +1,25 @@
+const blueVersion = {
+  primary: '#1c58f2',
+  primaryLight: '#486bf0',
+  primaryDark: '#1148d4',
+  primaryGradientStart: '#4f44b6',
+  primaryGradientEnd: '#4f44b6',
+  secondaryGradientStart: '#FF1358',
+  secondaryGradientEnd: '#FF1358',
+  profileGradientStart: '#54CBF6',
+  profileGradientEnd: '#49D2D0',
+  secondary: '#FF1358',
+  grey: '#acacac',
+  gray: '#5f5f5f',
+  darkGray: '#4d4d4d',
+  lightGray: '#9b9b9b',
+  white: '#ffffff',
+  blue: '#186aed',
+  bluish: '#F1F1F7',
+  black: '#000000',
+  red: '#de4509',
+  green: '#26a823',
+  yellow: '#ffc247',
+};
+
+export default blueVersion;

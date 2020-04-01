@@ -1,10 +1,6 @@
-![d](assets/header.png)
-
 # Horizin Mobile
 
-Horizin Mobile is an Open Source Web3 Identity and Wallet smartphone application.
-
-![d](assets/lineup.png)
+Horizin Mobile is an Open Source Web3 Wallet smartphone application experiment.
 
 #### Major Dependencies
 

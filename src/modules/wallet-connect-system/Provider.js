@@ -7,7 +7,7 @@ import * as actions from './actions';
 const Provider = ({children, ...props}) => {
   const initialState = useContext(Context);
   const [state, dispatch] = useReducer(reducers, initialState);
-  console.log(state, 'Wallet Connect State');
+  // console.log(state, 'Wallet Connect State');
   useInitializeEffect(state, dispatch);
   useWalletCallEffect(state, dispatch, props.navigate);
   return (

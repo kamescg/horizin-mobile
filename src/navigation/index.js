@@ -1,12 +1,19 @@
 import React from 'react';
-import {createAppContainer, createSwitchNavigator} from 'react-navigation';
-import {Hamburger} from 'atoms';
+import {createAppContainer} from 'react-navigation';
 import {createStackNavigator} from 'react-navigation-stack';
+
+import {Hamburger} from 'atoms';
+
+// Entry
+import Wallet from './Wallet';
+
+// Primary Screens
 import Authentication from '@screens/Authentication';
+import WalletCreate from '@screens/WalletCreate';
+
+// Secondary Screens
 import QRScanner from '@screens/QRScanner';
 import WalletRequests from '@screens/WalletRequests';
-import Wallet from '@screens/Wallet';
-import DrawerNavigation from './DrawerNavigation';
 
 const MainStack = createStackNavigator(
   {
@@ -16,15 +23,6 @@ const MainStack = createStackNavigator(
         header: false,
       },
     },
-    Main: {
-      screen: DrawerNavigation,
-      navigationOptions: {
-        headerShown: true,
-        headerTitle: 'Account',
-      },
-    },
-    QRScanner,
-    WalletRequests,
     Wallet: {
       screen: Wallet,
       navigationOptions: {
@@ -32,11 +30,22 @@ const MainStack = createStackNavigator(
         headerTitle: 'Wallet',
       },
     },
+    WalletCreate: {
+      screen: WalletCreate,
+      navigationOptions: {
+        headerShown: false,
+        headerTitle: 'WalletCreate',
+      },
+    },
+    QRScanner,
+    WalletRequests,
   },
+
+  // Stack Navigator Settings
+  // https://reactnavigation.org/docs/en/stack-navigator.html#navigationoptions-for-screens-inside-of-the-navigator
   {
     initialRouteName: 'Authentication',
     mode: 'modal',
-    // https://reactnavigation.org/docs/en/stack-navigator.html#navigationoptions-for-screens-inside-of-the-navigator
     defaultNavigationOptions: ({navigation}) => ({
       headerShown: false,
       headerMode: 'none',

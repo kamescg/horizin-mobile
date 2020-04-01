@@ -1,3 +1,4 @@
+/* eslint-disable react-native/no-inline-styles */
 import React from 'react';
 import {withNavigation} from 'react-navigation';
 import {Dimensions} from 'react-native';
@@ -6,26 +7,12 @@ import {ImageBackground} from 'react-native';
 import {ButtonLink, Modal, Flex, Text} from 'atoms';
 import {SetNavigation} from '../../modules/wallet-connect-system';
 import {SvgUri} from 'react-native-svg';
+
+import AccountAccess from './AccountAccess';
+
 const bg = {
   uri:
     'https://i.pinimg.com/originals/f7/f6/8f/f7f68f4ef9e52fea71f91547c99e2431.jpg',
-};
-
-const InformationModal = props => {
-  return (
-    <View>
-      <Text style={{fontSize: 26}}>What Is ΞID</Text>
-      <Text style={styles.text}>
-        The ΞID Mobile Wallet is an experiment to test decentralized identity in
-        a mobile environment.
-      </Text>
-      <Text style={styles.text}>
-        The application relies entirely on 3Box and 3ID to implement the
-        decentralized identity specification and feautres.
-      </Text>
-      <Text style={styles.text}>MIT Licensed. Enjoy the experiment.</Text>
-    </View>
-  );
 };
 
 const Authentication = props => (
@@ -33,20 +20,7 @@ const Authentication = props => (
     <SetNavigation navigation={props.navigation} />
     <View style={[styles.slide, styles.slide1]}>
       <Text style={styles.title}>horizin</Text>
-      <Flex
-        style={{
-          alignItems: 'center',
-          justifyContent: 'space-between',
-          marginVertical: 20,
-          width: '60%',
-        }}>
-        <ButtonLink to="Wallet" sx={{}}>
-          <Text>Wallet</Text>
-        </ButtonLink>
-        <ButtonLink to="Main" sx={{}}>
-          <Text>Identity</Text>
-        </ButtonLink>
-      </Flex>
+      <AccountAccess />
       <Flex style={{marginTop: 40}}>
         <Modal
           label="Apps"
@@ -70,6 +44,23 @@ const Authentication = props => (
     </View>
   </ImageBackground>
 );
+
+const InformationModal = props => {
+  return (
+    <View>
+      <Text style={{fontSize: 26}}>What Is ΞID</Text>
+      <Text style={styles.text}>
+        The ΞID Mobile Wallet is an experiment to test decentralized identity in
+        a mobile environment.
+      </Text>
+      <Text style={styles.text}>
+        The application relies entirely on 3Box and 3ID to implement the
+        decentralized identity specification and feautres.
+      </Text>
+      <Text style={styles.text}>MIT Licensed. Enjoy the experiment.</Text>
+    </View>
+  );
+};
 
 export default withNavigation(Authentication);
 

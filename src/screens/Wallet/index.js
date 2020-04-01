@@ -1,8 +1,9 @@
 import React from 'react';
 import {View} from 'react-native';
 import {ProfileHeader} from 'molecules';
-import {VerificationCategory, RadioGroup} from '@components';
-import {Button, Text} from 'atoms';
+import {RadioGroup} from '@components';
+import {Button} from 'atoms';
+
 export default props => {
   return (
     <View style={{}}>
